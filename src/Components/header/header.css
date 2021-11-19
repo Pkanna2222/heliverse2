@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 0.5px solid gray;
+}
+.videosHeader{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    padding: 10px;
+}

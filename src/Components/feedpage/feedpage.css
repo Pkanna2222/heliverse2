@@ -1,0 +1,67 @@
+.sortVideos{
+    margin: 40px 0 20px 120px;
+    display: flex;
+    align-items: center;
+}
+.sortOptions{
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.sortOptions>option{
+    font-size: 15px;
+}
+.feedpage{
+    margin: 0 120px 20px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 20px;
+}
+.feedVideos{
+    border: none;
+    border-radius: 10px;
+}
+.videoThumbnail{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.videoName{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 330px;
+    word-wrap: break-word;
+}
+.videoDetails{
+    margin-top: 10px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.videoMoreInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.videoViews, .videoLikes, .videoShares{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    margin-right: 10px;
+}
+.pageBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.pageBtns>button{
+    margin-right: 10px;
+}
